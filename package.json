@@ -59,5 +59,9 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@types/notp": "^2.0.5",
+    "notp": "^2.0.3"
+  }
 }
