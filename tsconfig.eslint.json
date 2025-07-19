@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Allow for dynamic imports
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "tests/**/*", "eslint.config.mjs", "scripts/**/*"],
+  "exclude": ["node_modules", "dist", "**/node_modules", "**/dist"]
+}
